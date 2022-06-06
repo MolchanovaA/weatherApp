@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/reset.css" />
+    <link rel="stylesheet" href="./src/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Home Work. Week 4</title>
+  </head>
+  <body>
+    <section class="container">
+      <form id="search">
+        <input type="text" placeholder="Type city here.." />
+        <input type="submit" value="search" class="button" />
+        <input type="submit" value="current" class="button" />
+      </form>
+      <h1>Australia, Sydney</h1>
+      <div class="currentTime">Today is ...</div>
+      <div class="condition">Partly Cloudy</div>
+      <section class="weatherInfoMin">
+        <!-- <div class="weatherPic">⛅</div> -->
+        <div class="mainTemp">
+          <span class="mainTempToChange">19</span>
+          <span class="measurments">C</span>
+        </div>
+        <section>
+          <div class="hum">Humidity: 77 %</div>
+          <div class="wind">Wind: 5 km/h</div>
+        </section>
+      </section>
+    </section>
+
+    <script src="./src/index.js"></script>
+  </body>
+</html>

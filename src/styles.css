@@ -58,6 +58,9 @@ h1 {
 .currentTime {
   margin-bottom: 5px;
 }
+footer {
+  text-align: center;
+}
 /* .measurments:hover {
   cursor: pointer;
   color: rgb(52, 114, 249);
